@@ -1,5 +1,5 @@
 @php(the_content())
-<x-alert message="An Alert" type="warning"/>
+<x-alert message="An Alert Boiiii" type="warning"/>
 {{-- @include('components.alert', [ $message = 'An alert message', $type = 'bg-red-700 text-white']) --}}
 @foreach($articles as $article)
 <article>
