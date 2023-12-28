@@ -1,0 +1,8 @@
+{
+  "http-basic": {
+    "connect.advancedcustomfields.com": {
+      "username": "b3JkZXJfaWQ9MTY3OTgxfHR5cGU9cGVyc29uYWx8ZGF0ZT0yMDE5LTA4LTE2IDExOjQwOjMw",
+      "password": "https://blpwp.frb.io/"
+    }
+  }
+}
