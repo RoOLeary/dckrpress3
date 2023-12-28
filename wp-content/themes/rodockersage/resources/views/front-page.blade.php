@@ -5,7 +5,7 @@
 @extends('layouts.app')
 @section('content')
   @php
-    $bannerText = 'SHOULD BE MY ALERTaaaah';
+    $bannerText = 'SHOULD BE MY ALERT';
     $text = 'Boootay';
   @endphp
 
