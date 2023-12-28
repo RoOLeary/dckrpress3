@@ -4,8 +4,6 @@
 
 @extends('layouts.app')
 @section('content')
-  {!! $textField !!}
-  {!! $blortTest !!}
   @php
     $bannerText = 'SHOULD BE MY ALERTaaaah';
     $text = 'Boootay';
