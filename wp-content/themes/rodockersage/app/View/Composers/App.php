@@ -24,8 +24,6 @@ class App extends Composer
     {
         return [
             'siteName' => $this->siteName(),
-            'sageTitle' => $this->sageTitle(),
-            'textField' => $this->textField()
         ];
     }
 
@@ -37,15 +35,5 @@ class App extends Composer
     public function siteName()
     {
         return get_bloginfo('name', 'display');
-    }
-
-    public function sageTitle()
-    {
-        return get_field('sagetitle');
-    }
-
-    public function textField()
-    {
-        return get_field('blorttest');
     }
 }

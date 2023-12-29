@@ -11,7 +11,10 @@
       "defaultGradients": false,
       "defaultPalette": false,
       "duotone": [],
+<<<<<<< HEAD
       "purple": "#f061FF",
+=======
+>>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
       "palette": [
         {
           "color": "inherit",
@@ -314,9 +317,65 @@
           "slug": "stone-950"
         },
         {
+<<<<<<< HEAD
           "color": "#f00000",
           "name": "Red",
           "slug": "red"
+=======
+          "color": "#fef2f2",
+          "name": "Red 50",
+          "slug": "red-50"
+        },
+        {
+          "color": "#fee2e2",
+          "name": "Red 100",
+          "slug": "red-100"
+        },
+        {
+          "color": "#fecaca",
+          "name": "Red 200",
+          "slug": "red-200"
+        },
+        {
+          "color": "#fca5a5",
+          "name": "Red 300",
+          "slug": "red-300"
+        },
+        {
+          "color": "#f87171",
+          "name": "Red 400",
+          "slug": "red-400"
+        },
+        {
+          "color": "#ef4444",
+          "name": "Red 500",
+          "slug": "red-500"
+        },
+        {
+          "color": "#dc2626",
+          "name": "Red 600",
+          "slug": "red-600"
+        },
+        {
+          "color": "#b91c1c",
+          "name": "Red 700",
+          "slug": "red-700"
+        },
+        {
+          "color": "#991b1b",
+          "name": "Red 800",
+          "slug": "red-800"
+        },
+        {
+          "color": "#7f1d1d",
+          "name": "Red 900",
+          "slug": "red-900"
+        },
+        {
+          "color": "#450a0a",
+          "name": "Red 950",
+          "slug": "red-950"
+>>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
         },
         {
           "color": "#fff7ed",
@@ -539,9 +598,65 @@
           "slug": "lime-950"
         },
         {
+<<<<<<< HEAD
           "color": "#008000",
           "name": "Green",
           "slug": "green"
+=======
+          "color": "#f0fdf4",
+          "name": "Green 50",
+          "slug": "green-50"
+        },
+        {
+          "color": "#dcfce7",
+          "name": "Green 100",
+          "slug": "green-100"
+        },
+        {
+          "color": "#bbf7d0",
+          "name": "Green 200",
+          "slug": "green-200"
+        },
+        {
+          "color": "#86efac",
+          "name": "Green 300",
+          "slug": "green-300"
+        },
+        {
+          "color": "#4ade80",
+          "name": "Green 400",
+          "slug": "green-400"
+        },
+        {
+          "color": "#22c55e",
+          "name": "Green 500",
+          "slug": "green-500"
+        },
+        {
+          "color": "#16a34a",
+          "name": "Green 600",
+          "slug": "green-600"
+        },
+        {
+          "color": "#15803d",
+          "name": "Green 700",
+          "slug": "green-700"
+        },
+        {
+          "color": "#166534",
+          "name": "Green 800",
+          "slug": "green-800"
+        },
+        {
+          "color": "#14532d",
+          "name": "Green 900",
+          "slug": "green-900"
+        },
+        {
+          "color": "#052e16",
+          "name": "Green 950",
+          "slug": "green-950"
+>>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
         },
         {
           "color": "#ecfdf5",
@@ -929,9 +1044,65 @@
           "slug": "violet-950"
         },
         {
+<<<<<<< HEAD
           "color": "#f061ff",
           "name": "Purple",
           "slug": "purple"
+=======
+          "color": "#faf5ff",
+          "name": "Purple 50",
+          "slug": "purple-50"
+        },
+        {
+          "color": "#f3e8ff",
+          "name": "Purple 100",
+          "slug": "purple-100"
+        },
+        {
+          "color": "#e9d5ff",
+          "name": "Purple 200",
+          "slug": "purple-200"
+        },
+        {
+          "color": "#d8b4fe",
+          "name": "Purple 300",
+          "slug": "purple-300"
+        },
+        {
+          "color": "#c084fc",
+          "name": "Purple 400",
+          "slug": "purple-400"
+        },
+        {
+          "color": "#a855f7",
+          "name": "Purple 500",
+          "slug": "purple-500"
+        },
+        {
+          "color": "#9333ea",
+          "name": "Purple 600",
+          "slug": "purple-600"
+        },
+        {
+          "color": "#7e22ce",
+          "name": "Purple 700",
+          "slug": "purple-700"
+        },
+        {
+          "color": "#6b21a8",
+          "name": "Purple 800",
+          "slug": "purple-800"
+        },
+        {
+          "color": "#581c87",
+          "name": "Purple 900",
+          "slug": "purple-900"
+        },
+        {
+          "color": "#3b0764",
+          "name": "Purple 950",
+          "slug": "purple-950"
+>>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
         },
         {
           "color": "#fdf4ff",
@@ -1119,7 +1290,11 @@
       ]
     },
     "typography": {
+<<<<<<< HEAD
       "customFontSize": true,
+=======
+      "customFontSize": false,
+>>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
       "fontFamilies": [
         {
           "fontFamily": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
@@ -1180,7 +1355,11 @@
         },
         {
           "name": "5xl",
+<<<<<<< HEAD
           "size": "5em",
+=======
+          "size": "3rem",
+>>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
           "slug": "5xl"
         },
         {
