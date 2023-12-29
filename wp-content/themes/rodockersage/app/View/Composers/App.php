@@ -24,6 +24,8 @@ class App extends Composer
     {
         return [
             'siteName' => $this->siteName(),
+            'sageTitle' => $this->sageTitle(),
+            'textField' => $this->textField()
         ];
     }
 
@@ -36,4 +38,18 @@ class App extends Composer
     {
         return get_bloginfo('name', 'display');
     }
+<<<<<<< HEAD
 }
+=======
+
+    public function sageTitle()
+    {
+        return get_field('sagetitle');
+    }
+
+    public function textField()
+    {
+        return get_field('blorttest');
+    }
+}
+>>>>>>> d1ceb73 (adds a bunnch of stuff like cpt support)

@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} config */
 const config = {
-<<<<<<< HEAD
   content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js,css}'],
   theme: {
     extend: {
@@ -31,12 +30,6 @@ const config = {
       fontSize:{
         '5xl': '5em'
       }
-=======
-  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
-  theme: {
-    extend: {
-      colors: {}, // Extend Tailwind's default colors
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
     },
   },
   plugins: [],

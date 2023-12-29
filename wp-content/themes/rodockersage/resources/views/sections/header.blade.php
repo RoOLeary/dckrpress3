@@ -1,4 +1,4 @@
-<header class="banner">
+<header class="banner flex justify-between">
   <a class="brand" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a>

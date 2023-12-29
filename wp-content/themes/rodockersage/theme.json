@@ -11,10 +11,7 @@
       "defaultGradients": false,
       "defaultPalette": false,
       "duotone": [],
-<<<<<<< HEAD
       "purple": "#f061FF",
-=======
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
       "palette": [
         {
           "color": "inherit",
@@ -317,11 +314,11 @@
           "slug": "stone-950"
         },
         {
-<<<<<<< HEAD
           "color": "#f00000",
           "name": "Red",
           "slug": "red"
-=======
+        },
+        {
           "color": "#fef2f2",
           "name": "Red 50",
           "slug": "red-50"
@@ -375,7 +372,11 @@
           "color": "#450a0a",
           "name": "Red 950",
           "slug": "red-950"
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
+        },
+        {
+          "color": "#f00000",
+          "name": "Red",
+          "slug": "red"
         },
         {
           "color": "#fff7ed",
@@ -598,11 +599,6 @@
           "slug": "lime-950"
         },
         {
-<<<<<<< HEAD
-          "color": "#008000",
-          "name": "Green",
-          "slug": "green"
-=======
           "color": "#f0fdf4",
           "name": "Green 50",
           "slug": "green-50"
@@ -656,7 +652,6 @@
           "color": "#052e16",
           "name": "Green 950",
           "slug": "green-950"
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
         },
         {
           "color": "#ecfdf5",
@@ -1044,11 +1039,10 @@
           "slug": "violet-950"
         },
         {
-<<<<<<< HEAD
           "color": "#f061ff",
           "name": "Purple",
           "slug": "purple"
-=======
+        },{
           "color": "#faf5ff",
           "name": "Purple 50",
           "slug": "purple-50"
@@ -1102,7 +1096,11 @@
           "color": "#3b0764",
           "name": "Purple 950",
           "slug": "purple-950"
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
+        },
+        {  
+          "color": "#f061ff",
+          "name": "Purple",
+          "slug": "purple"
         },
         {
           "color": "#fdf4ff",
@@ -1290,11 +1288,7 @@
       ]
     },
     "typography": {
-<<<<<<< HEAD
       "customFontSize": true,
-=======
-      "customFontSize": false,
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
       "fontFamilies": [
         {
           "fontFamily": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
@@ -1355,11 +1349,7 @@
         },
         {
           "name": "5xl",
-<<<<<<< HEAD
-          "size": "5em",
-=======
           "size": "3rem",
->>>>>>> 43f2c13 (interestinng. we could well be back in the wp game)
           "slug": "5xl"
         },
         {
