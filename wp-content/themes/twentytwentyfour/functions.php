@@ -204,3 +204,70 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+
+function myplugin_register_my_block_template() {
+
+	$block_template = array(
+		// array( 'core/image' ),
+		array( 'core/heading', array(
+			'placeholder'	=> 'Add H2...',
+			'level'			=> 2
+		) ),
+		array( 'core/paragraph', array(
+			'placeholder'	=> 'Add deze nuts...'
+			
+		) ),
+		
+		array( 'core/columns', 
+			array(
+				'verticalAlignment'	=> 'center',
+				'align'				=> 'wide',
+				'style'				=> array( 
+					'border'	=> array(
+						'width'	=> '2px',
+						'radius'	=> array(
+							'topLeft'		=> '12px', 
+							'topRight'		=> '12px', 
+							'bottomLeft'	=> '12px', 
+							'bottomRight'	=> '12px'
+						)
+					)
+				),
+				'backgroundColor' => 'tertiary'
+			), 
+			array( 
+				array( 'core/column',
+					array(),
+					array(
+						array( 'core/image' )
+					)
+				), 
+				array( 'core/column',
+					array(),
+					array(
+						array( 'core/heading', array(
+							'placeholder'	=> 'Add H3...',
+							'level'			=> 3
+						) ),
+						array( 'core/paragraph', array(
+							'placeholder'	=> 'Add paragraph...'
+						) )
+					) 
+				)
+			) 
+		)
+	);
+	$post_type_object = get_post_type_object( 'post' );
+	$post_type_object->template = $block_template;
+}
+add_action( 'init', 'myplugin_register_my_block_template' );
+
+
+function forGiggles($arg){
+
+	$herp = $arg.reverse(); 
+
+	return $herp;
+
+}
