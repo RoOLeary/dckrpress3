@@ -5,7 +5,6 @@
 
 .menu-item{
     @apply pl-4
-<<<<<<< HEAD
 }
 
 .alertDialog{
@@ -19,6 +18,3 @@
 .article_title{
     @apply text-purple text-5xl
 }
-=======
-}
->>>>>>> d1ceb73 (adds a bunnch of stuff like cpt support)

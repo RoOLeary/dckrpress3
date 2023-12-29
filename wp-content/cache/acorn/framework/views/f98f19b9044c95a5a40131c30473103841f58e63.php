@@ -4,7 +4,8 @@
   <?php echo $blortTest; ?> 
   <?php while(have_posts()): ?> <?php (the_post()); ?>
     <?php echo $__env->make('partials.page-header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-   
+    <?php echo $sageTitle; ?>
+
     <?php echo $__env->make('partials.content-page-articles', $articles, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
   <?php endwhile; ?>
 <?php $__env->stopSection(); ?>

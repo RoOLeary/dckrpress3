@@ -26,11 +26,7 @@ class ArticlePage extends Composer
 
     public function textField()
     {
-<<<<<<< HEAD
         return get_field('sagetitle');
-=======
-        return 'You automated field bollocks!';
->>>>>>> d1ceb73 (adds a bunnch of stuff like cpt support)
     }
 
     public function templateName()
@@ -51,7 +47,6 @@ class ArticlePage extends Composer
         $articles = get_posts([
             'post_type' => 'article',
             'posts_per_page'=> '-1',
-<<<<<<< HEAD
             'order'=>'ASC',
         ]);
     
@@ -68,18 +63,6 @@ class ArticlePage extends Composer
         }, $articles);
 
         wp_reset_postdata();
-=======
-        ]);
-    
-        // var_dump($articles);
-        return array_map(function ($post) {
-            return [
-                'title' => apply_filters('the_title', $post->post_title),   
-            ];
-        }, $articles);
-
-    
->>>>>>> d1ceb73 (adds a bunnch of stuff like cpt support)
     }
 
 }
