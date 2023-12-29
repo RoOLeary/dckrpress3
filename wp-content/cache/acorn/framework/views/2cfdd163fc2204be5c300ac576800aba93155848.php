@@ -1,10 +1,6 @@
 <?php $__env->startSection('content'); ?>
-  <?php echo $textField; ?>
-
-  <?php echo $blortTest; ?>
-
   <?php
-    $bannerText = 'SHOULD BE MY ALERTaaaah';
+    $bannerText = 'SHOULD BE MY ALERTZ';
     $text = 'Boootay';
   ?>
 
