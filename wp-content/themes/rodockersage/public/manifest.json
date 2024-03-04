@@ -1,9 +1,11 @@
 {
-  "app.css": "css/app.cf50bc.css",
-  "app.js": "js/app.381f0a.js",
-  "editor.css": "css/editor.ef46db.css",
-  "editor.js": "js/editor.8c1474.js",
-  "runtime.js": "js/runtime.e97f88.js",
+  "app.js": "js/app.js",
+  "editor.js": "js/editor.js",
+  "runtime.js": "js/runtime.js",
   "../theme.json": "../theme.json",
-  "entrypoints.json": "entrypoints.json"
+  "hmr.json": "hmr.json",
+  "entrypoints.json": "entrypoints.json",
+  "app.js.map": "js/app.js.map",
+  "editor.js.map": "js/editor.js.map",
+  "runtime.js.map": "js/runtime.js.map"
 }
