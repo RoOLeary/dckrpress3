@@ -4,33 +4,55 @@
     0 => 'Illuminate\\Bus\\BusServiceProvider',
     1 => 'Illuminate\\Cache\\CacheServiceProvider',
     2 => 'Illuminate\\Database\\DatabaseServiceProvider',
-    3 => 'Illuminate\\Database\\MigrationServiceProvider',
-    4 => 'Illuminate\\Foundation\\Providers\\ComposerServiceProvider',
+    3 => 'Illuminate\\Encryption\\EncryptionServiceProvider',
+    4 => 'Illuminate\\Filesystem\\FilesystemServiceProvider',
     5 => 'Illuminate\\Pipeline\\PipelineServiceProvider',
-    6 => 'Illuminate\\Routing\\RoutingServiceProvider',
+    6 => 'Illuminate\\Queue\\QueueServiceProvider',
     7 => 'Illuminate\\Session\\SessionServiceProvider',
-    8 => 'Roots\\Acorn\\Assets\\AssetsServiceProvider',
-    9 => 'Roots\\Acorn\\Filesystem\\FilesystemServiceProvider',
-    10 => 'Roots\\Acorn\\Providers\\AcornServiceProvider',
-    11 => 'Roots\\Acorn\\Providers\\RouteServiceProvider',
-    12 => 'Roots\\Acorn\\View\\ViewServiceProvider',
-    13 => 'Carbon\\Laravel\\ServiceProvider',
-    14 => 'Termwind\\Laravel\\TermwindServiceProvider',
-    15 => 'App\\Providers\\ThemeServiceProvider',
+    8 => 'Illuminate\\Translation\\TranslationServiceProvider',
+    9 => 'Illuminate\\Validation\\ValidationServiceProvider',
+    10 => 'Illuminate\\View\\ViewServiceProvider',
+    11 => 'Roots\\Acorn\\Exceptions\\ExceptionServiceProvider',
+    12 => 'Roots\\Acorn\\Assets\\AssetsServiceProvider',
+    13 => 'Roots\\Acorn\\Filesystem\\FilesystemServiceProvider',
+    14 => 'Roots\\Acorn\\Providers\\AcornServiceProvider',
+    15 => 'Roots\\Acorn\\Providers\\RouteServiceProvider',
+    16 => 'Roots\\Acorn\\View\\ViewServiceProvider',
+    17 => 'Illuminate\\Database\\MigrationServiceProvider',
+    18 => 'Roots\\Acorn\\Exceptions\\ExceptionServiceProvider',
+    19 => 'Roots\\Acorn\\Assets\\AssetsServiceProvider',
+    20 => 'Roots\\Acorn\\Filesystem\\FilesystemServiceProvider',
+    21 => 'Roots\\Acorn\\Providers\\AcornServiceProvider',
+    22 => 'Roots\\Acorn\\Providers\\RouteServiceProvider',
+    23 => 'Roots\\Acorn\\View\\ViewServiceProvider',
+    24 => 'Illuminate\\Foundation\\Providers\\ComposerServiceProvider',
+    25 => 'Illuminate\\Database\\MigrationServiceProvider',
+    26 => 'Carbon\\Laravel\\ServiceProvider',
+    27 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    28 => 'App\\Providers\\ThemeServiceProvider',
   ),
   'eager' => 
   array (
     0 => 'Illuminate\\Database\\DatabaseServiceProvider',
-    1 => 'Illuminate\\Routing\\RoutingServiceProvider',
-    2 => 'Illuminate\\Session\\SessionServiceProvider',
-    3 => 'Roots\\Acorn\\Assets\\AssetsServiceProvider',
-    4 => 'Roots\\Acorn\\Filesystem\\FilesystemServiceProvider',
-    5 => 'Roots\\Acorn\\Providers\\AcornServiceProvider',
-    6 => 'Roots\\Acorn\\Providers\\RouteServiceProvider',
-    7 => 'Roots\\Acorn\\View\\ViewServiceProvider',
-    8 => 'Carbon\\Laravel\\ServiceProvider',
-    9 => 'Termwind\\Laravel\\TermwindServiceProvider',
-    10 => 'App\\Providers\\ThemeServiceProvider',
+    1 => 'Illuminate\\Encryption\\EncryptionServiceProvider',
+    2 => 'Illuminate\\Filesystem\\FilesystemServiceProvider',
+    3 => 'Illuminate\\Session\\SessionServiceProvider',
+    4 => 'Illuminate\\View\\ViewServiceProvider',
+    5 => 'Roots\\Acorn\\Exceptions\\ExceptionServiceProvider',
+    6 => 'Roots\\Acorn\\Assets\\AssetsServiceProvider',
+    7 => 'Roots\\Acorn\\Filesystem\\FilesystemServiceProvider',
+    8 => 'Roots\\Acorn\\Providers\\AcornServiceProvider',
+    9 => 'Roots\\Acorn\\Providers\\RouteServiceProvider',
+    10 => 'Roots\\Acorn\\View\\ViewServiceProvider',
+    11 => 'Roots\\Acorn\\Exceptions\\ExceptionServiceProvider',
+    12 => 'Roots\\Acorn\\Assets\\AssetsServiceProvider',
+    13 => 'Roots\\Acorn\\Filesystem\\FilesystemServiceProvider',
+    14 => 'Roots\\Acorn\\Providers\\AcornServiceProvider',
+    15 => 'Roots\\Acorn\\Providers\\RouteServiceProvider',
+    16 => 'Roots\\Acorn\\View\\ViewServiceProvider',
+    17 => 'Carbon\\Laravel\\ServiceProvider',
+    18 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    19 => 'App\\Providers\\ThemeServiceProvider',
   ),
   'deferred' => 
   array (
@@ -44,6 +66,18 @@
     'cache.psr6' => 'Illuminate\\Cache\\CacheServiceProvider',
     'memcached.connector' => 'Illuminate\\Cache\\CacheServiceProvider',
     'Illuminate\\Cache\\RateLimiter' => 'Illuminate\\Cache\\CacheServiceProvider',
+    'Illuminate\\Contracts\\Pipeline\\Hub' => 'Illuminate\\Pipeline\\PipelineServiceProvider',
+    'pipeline' => 'Illuminate\\Pipeline\\PipelineServiceProvider',
+    'queue' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'queue.connection' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'queue.failer' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'queue.listener' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'queue.worker' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'translator' => 'Illuminate\\Translation\\TranslationServiceProvider',
+    'translation.loader' => 'Illuminate\\Translation\\TranslationServiceProvider',
+    'validator' => 'Illuminate\\Validation\\ValidationServiceProvider',
+    'validation.presence' => 'Illuminate\\Validation\\ValidationServiceProvider',
+    'Illuminate\\Contracts\\Validation\\UncompromisedVerifier' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'migrator' => 'Illuminate\\Database\\MigrationServiceProvider',
     'migration.repository' => 'Illuminate\\Database\\MigrationServiceProvider',
     'migration.creator' => 'Illuminate\\Database\\MigrationServiceProvider',
@@ -56,7 +90,6 @@
     'Illuminate\\Database\\Console\\Migrations\\StatusCommand' => 'Illuminate\\Database\\MigrationServiceProvider',
     'Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand' => 'Illuminate\\Database\\MigrationServiceProvider',
     'composer' => 'Illuminate\\Foundation\\Providers\\ComposerServiceProvider',
-    'Illuminate\\Contracts\\Pipeline\\Hub' => 'Illuminate\\Pipeline\\PipelineServiceProvider',
   ),
   'when' => 
   array (
@@ -66,13 +99,22 @@
     'Illuminate\\Cache\\CacheServiceProvider' => 
     array (
     ),
+    'Illuminate\\Pipeline\\PipelineServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Queue\\QueueServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Translation\\TranslationServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Validation\\ValidationServiceProvider' => 
+    array (
+    ),
     'Illuminate\\Database\\MigrationServiceProvider' => 
     array (
     ),
     'Illuminate\\Foundation\\Providers\\ComposerServiceProvider' => 
-    array (
-    ),
-    'Illuminate\\Pipeline\\PipelineServiceProvider' => 
     array (
     ),
   ),
